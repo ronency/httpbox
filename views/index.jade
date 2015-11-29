@@ -1,5 +1,8 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1 Welcome to httpbox.co
+  #content
+    To get a response of a desired status, just go to<br />
+    |http://httpbox.herokuapp.com/status/<form><input type='text' id='status' placeholder='500' /></form>
+    button GO!
